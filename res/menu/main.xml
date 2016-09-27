@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/start_location_engine"
+        android:icon="@drawable/start_location"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/start_location_engine"/>
+    <item
+        android:id="@+id/stop_location_engine"
+        android:icon="@drawable/stop_location"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/stop_location_engine"/>
+
+</menu>
